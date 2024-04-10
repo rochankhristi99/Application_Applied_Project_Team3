@@ -111,7 +111,7 @@ public class LineFollower extends Thread {
                 DEObj.setCMD(1);
 
             } else if (DEObj.getCMD() == 1) {
-                // I have fetched sensor value from ColorSensor class and calculated left and right motor speed based on difference
+                // I have fetched sensor value from ColorSensor class and calculated left and right motor speed based on difference which is calculated.
                 // Calculate speed based on sensor value
                 int difference = sensorValue - SENSOR_THRESHOLD;
                 int leftSpeed = BASE_SPEED + difference * 3;
