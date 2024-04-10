@@ -66,7 +66,9 @@ public class LineFollower extends Thread {
         	// Get sensor reading
             int sensorValue = colorSensor.getSensorValue();
 
-            // Check current command
+            // Check current command 
+            //command "0" is indicate that obstacle is detected
+            //command "1" is indicate to follow black line
             if (DEObj.getCMD() == 0) {
             
             	// Increment detection count
