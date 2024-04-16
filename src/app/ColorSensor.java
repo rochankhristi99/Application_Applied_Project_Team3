@@ -25,7 +25,8 @@ public class ColorSensor extends Thread {
         // Initialize the color sensor connected to port S3
         lightSensor = new EV3ColorSensor(SensorPort.S3);
       
-        // Set the sensor mode to measure light intensity (red mode)
+        // Interpret sensor data by converting raw values to a different unit or scale, visualizing trends, 
+        setting thresholds, and calibrating for environmental factors.
         sampleProvider = lightSensor.getRedMode();
         
         // Initialize the sample array to store sensor readings
