@@ -7,6 +7,7 @@ import lejos.robotics.RegulatedMotor;
 /**
  * The MotorController class controls the movement of motors.
  * It extends Thread to allow asynchronous operation.
+ * I have controling mottors via this class
  */
 public class MotorController extends Thread {
     // The left and right motors for controlling movement
