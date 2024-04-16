@@ -38,7 +38,7 @@ public class ObstacleDetector extends Thread {
             // Array to store sensor readings
             float[] sample = new float[ultrasonicSensor.sampleSize()];
            
-            // Fetch the distance reading from the ultrasonic sensor
+            // Fetch and check the distance reading from the ultrasonic sensor
             ultrasonicSensor.getDistanceMode().fetchSample(sample, 0);
             
             // Extract the distance value from the sample
