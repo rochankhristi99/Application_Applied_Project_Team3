@@ -31,7 +31,3 @@ To use the EV3 robot line follower:
 - Neeru
 - Rochan
 - Alexey
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
