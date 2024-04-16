@@ -40,7 +40,7 @@ public class MotorController extends Thread {
      * Moves both motors forward.
      */
     public void forward() {
-        // Move both motors forward
+        // both motor should be move forward
         leftMotor.forward();
         rightMotor.forward();
     }
